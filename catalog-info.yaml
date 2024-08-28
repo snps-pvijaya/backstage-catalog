@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-kubernetes-component
+  name: backstage-catalog
+  annotations:
+    github.com/project-slug: snps-pvijaya/backstage-catalog
 spec:
-  lifecycle: production
-  owner: my-team
-  type: service
+  type: other
+  lifecycle: unknown
+  owner: snps-pvijaya
